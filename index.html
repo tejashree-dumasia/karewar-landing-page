@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +12,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <meta name="description" content="Karewar Infracon - Providing residential, commercial, and government construction services in Pune & Parbhani with 100% client satisfaction since 2011.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <meta name="description"
+        content="Karewar Infracon - Providing residential, commercial, and government construction services in Pune & Parbhani with 100% client satisfaction since 2011.">
 
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
@@ -46,36 +51,106 @@
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <div class="container">
-                <div class="hero-text">
-                    <p class="hero-subtitle animate-fade-in">BUILDER | DEVELOPER | CONTRACTOR</p>
-                    <h1 class="hero-title animate-slide-up">CONSTRUCTING DREAMS<br>SINCE 2011</h1>
-                    <p class="hero-description animate-fade-in-delay">Creating exceptional spaces with expertise, precision, and 100% client satisfaction</p>
-                    <div class="hero-buttons animate-fade-in-delay-2">
-                        <a href="#contact" class="btn btn-primary btn-lg">Get a Quote</a>
-                        <a href="#projects" class="btn btn-secondary btn-lg">View Projects</a>
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <div class="container">
+                        <div class="hero-text">
+                            <p class="hero-subtitle">BUILDER | DEVELOPER | CONTRACTOR</p>
+                            <h1 class="hero-title">CONSTRUCTING DREAMS<br>SINCE 2011</h1>
+                            <p class="hero-description">Creating exceptional spaces with expertise,
+                                precision, and 100% client satisfaction</p>
+                            <div class="hero-buttons">
+                                <a href="#contact" class="btn btn-primary btn-lg">Get a Quote</a>
+                                <a href="#projects" class="btn btn-secondary btn-lg">View Projects</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="hero-slide">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <div class="container">
+                        <div class="hero-text">
+                            <p class="hero-subtitle">RESIDENTIAL | COMMERCIAL | INDUSTRIAL</p>
+                            <h1 class="hero-title">QUALITY CONSTRUCTION<br>YOU CAN TRUST</h1>
+                            <p class="hero-description">ISO certified excellence in every project we deliver</p>
+                            <div class="hero-buttons">
+                                <a href="#services" class="btn btn-primary btn-lg">Our Services</a>
+                                <a href="#contact" class="btn btn-secondary btn-lg">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <div class="container">
+                        <div class="hero-text">
+                            <p class="hero-subtitle">PUNE | PARBHANI | MAHARASHTRA</p>
+                            <h1 class="hero-title">500+ PROJECTS<br>COMPLETED</h1>
+                            <p class="hero-description">Building lasting relationships through quality work</p>
+                            <div class="hero-buttons">
+                                <a href="#projects" class="btn btn-primary btn-lg">View Portfolio</a>
+                                <a href="#about" class="btn btn-secondary btn-lg">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="hero-arrow hero-prev" aria-label="Previous slide">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="hero-arrow hero-next" aria-label="Next slide">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="hero-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
         </div>
-        <div class="hero-stats">
-            <div class="container">
-                <div class="stats-grid">
-                    <div class="stat-item">
+    </section>
+
+    <!-- Stats Section (Moved from Hero) -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-wrapper">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="stat-content">
                         <div class="stat-number" data-count="13">0</div>
                         <div class="stat-label">Years Experience</div>
                     </div>
-                    <div class="stat-item">
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="stat-content">
                         <div class="stat-number" data-count="500">0</div>
                         <div class="stat-label">Projects Completed</div>
                     </div>
-                    <div class="stat-item">
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <div class="stat-content">
                         <div class="stat-number" data-count="100">0</div>
                         <div class="stat-label">Client Satisfaction</div>
                     </div>
-                    <div class="stat-item">
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-content">
                         <div class="stat-number" data-count="50">0</div>
                         <div class="stat-label">Expert Team</div>
                     </div>
@@ -93,12 +168,17 @@
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <p class="lead">Karewar Infracon has been providing construction services since 2011. We've completed a variety of successful Residential, Commercial and Government projects in Pune & Parbhani with 100% client satisfaction.</p>
-                    
-                    <p>WE are ISO 9001:2015 certified company, Our highly trained and experienced team is committed to completing your project with expertise and precision.</p>
-                    
-                    <p>At KAREWAR Infracon, we understand that building a home or business space is more than just bricks and wood. It's about creating a place for you to call your own for years to come. We value your trust and always strive for excellence in our work.</p>
-                    
+                    <p class="lead">Karewar Infracon has been providing construction services since 2011. We've
+                        completed a variety of successful Residential, Commercial and Government projects in Pune &
+                        Parbhani with 100% client satisfaction.</p>
+
+                    <p>WE are ISO 9001:2015 certified company, Our highly trained and experienced team is committed to
+                        completing your project with expertise and precision.</p>
+
+                    <p>At KAREWAR Infracon, we understand that building a home or business space is more than just
+                        bricks and wood. It's about creating a place for you to call your own for years to come. We
+                        value your trust and always strive for excellence in our work.</p>
+
                     <div class="certifications">
                         <div class="cert-badge">
                             <i class="fas fa-certificate"></i>
@@ -112,7 +192,8 @@
                 </div>
                 <div class="about-image">
                     <div class="image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800" alt="Construction Site">
+                        <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800"
+                            alt="Construction Site">
                         <div class="image-overlay">
                             <div class="experience-badge">
                                 <span class="badge-number">13+</span>
@@ -277,19 +358,20 @@
 
     <!-- How We Work Section -->
     <section class="work-process relative overflow-hidden" id="work">
-        
+
         <!-- Decorative background blobs -->
         <div class="decorative-blob decorative-blob-1 pointer-events-none"></div>
         <div class="decorative-blob decorative-blob-2 pointer-events-none"></div>
 
         <div class="container relative z-10">
-            
+
             <!-- Header -->
             <div class="section-header">
                 <span class="section-tag">Our Workflow</span>
                 <h2 class="section-title">How We Build Your Vision</h2>
                 <p class="section-description">
-                    A transparent, step-by-step journey from the first sketch to the final handover. We believe in precision at every stage.
+                    A transparent, step-by-step journey from the first sketch to the final handover. We believe in
+                    precision at every stage.
                 </p>
             </div>
 
@@ -362,15 +444,15 @@
         </div>
     </section>
 
-   
 
-        <!-- 
+
+    <!-- 
       SECTION START 
       Copy from here down for your landing page.
       The 'id' is useful if you want to link to this section (#brands).
     -->
     <section id="brands" class="brands-section relative overflow-hidden">
-        
+
         <!-- Header Content -->
         <div class="brands-header">
             <span class="brands-tag">
@@ -380,25 +462,26 @@
                 Brands We Use
             </h2>
             <p class="brands-desc">
-                We partner with the industry's most trusted manufacturers to ensure your project stands the test of time. Quality materials are the foundation of our promise.
+                We partner with the industry's most trusted manufacturers to ensure your project stands the test of
+                time. Quality materials are the foundation of our promise.
             </p>
         </div>
 
         <!-- Infinite Marquee Wrapper -->
         <div class="marquee-wrapper">
-            
+
             <!-- The Track: Flex container that moves -->
             <div class="marquee-track">
-                
+
                 <!-- SET 1 -->
                 <div class="brand-item">
                     <img src="assets/brand-we-use-1.jpg" alt="Tata Steel" class="brand-logo-img">
                 </div>
-                
+
                 <div class="brand-item">
                     <img src="assets/brand-we-use-2.jpg" alt="UltraTech" class="brand-logo-img">
                 </div>
-                
+
                 <div class="brand-item">
                     <img src="assets/brand-we-use-3.png" alt="Gajraj" class="brand-logo-img">
                 </div>
@@ -418,7 +501,7 @@
                 <div class="brand-item">
                     <img src="assets/brand-we-use-7.jpg" alt="Ambuja" class="brand-logo-img">
                 </div>
-                
+
                 <div class="brand-item">
                     <img src="assets/brand-we-use-8.png" alt="Polycab" class="brand-logo-img">
                 </div>
@@ -432,11 +515,11 @@
                 <div class="brand-item">
                     <img src="assets/brand-we-use-1.jpg" alt="Tata Steel" class="brand-logo-img">
                 </div>
-                
+
                 <div class="brand-item">
                     <img src="assets/brand-we-use-2.jpg" alt="UltraTech" class="brand-logo-img">
                 </div>
-                
+
                 <div class="brand-item">
                     <img src="assets/brand-we-use-3.png" alt="Gajraj" class="brand-logo-img">
                 </div>
@@ -456,7 +539,7 @@
                 <div class="brand-item">
                     <img src="assets/brand-we-use-7.jpg" alt="Ambuja" class="brand-logo-img">
                 </div>
-                
+
                 <div class="brand-item">
                     <img src="assets/brand-we-use-8.png" alt="Polycab" class="brand-logo-img">
                 </div>
@@ -470,7 +553,8 @@
 
         <!-- Footer Elements -->
         <span class="brands-note">
-            * Note: All product logos and trademarks are the property of their respective owners. We use these brands based on project requirements.
+            * Note: All product logos and trademarks are the property of their respective owners. We use these brands
+            based on project requirements.
         </span>
 
         <button onclick="window.location.href='#more-brands'" class="view-more-btn">
@@ -485,7 +569,8 @@
             <div class="trust-content">
                 <div class="trust-text">
                     <h2>Trusted Brand</h2>
-                    <p>Trust is the cornerstone of our business. We build lasting relationships through transparency, quality workmanship, and unwavering commitment to your vision.</p>
+                    <p>Trust is the cornerstone of our business. We build lasting relationships through transparency,
+                        quality workmanship, and unwavering commitment to your vision.</p>
                     <div class="trust-features">
                         <div class="trust-feature">
                             <i class="fas fa-check-circle"></i>
@@ -525,7 +610,7 @@
             </div>
 
             <div class="contact-layout">
-                
+
                 <!-- LEFT SIDE: Contact Form (Takes 2 columns) -->
                 <div class="contact-form-col">
                     <div class="form-card">
@@ -533,63 +618,35 @@
                             <i class="fa-regular fa-paper-plane"></i>
                             <span>Send Message</span>
                         </div>
-                        
-                        <form id="contactForm">
-                            <!-- Name Input -->
+
+                        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="330672cd-f009-434d-b7ac-19066d600a63" />
+                            <input type="hidden" name="subject" value="New message from landing page" />
+                            <input type="hidden" name="from_name" value="Landing Page Contact" />
+                            <input type="checkbox" name="botcheck" class="hidden" style="display:none;" />
+
                             <div class="form-group-custom">
-                                <input type="text" class="form-input-custom" id="contactName" placeholder=" " required>
-                                <label for="contactName" class="form-label-custom">Full Name</label>
+                                <input class="form-input-custom" type="text" name="name" placeholder=" " required />
+                                <label class="form-label-custom">Your Name</label>
                             </div>
 
-                            <!-- Email Input -->
                             <div class="form-group-custom">
-                                <input type="email" class="form-input-custom" id="contactEmail" placeholder=" " required>
-                                <label for="contactEmail" class="form-label-custom">Email Address</label>
+                                <input class="form-input-custom" type="email" name="email" placeholder=" " required />
+                                <label class="form-label-custom">Email</label>
                             </div>
 
-                            <!-- Phone Input with Country Code -->
                             <div class="form-group-custom">
-                                <div class="phone-group-custom">
-                                    <div class="country-select-custom" id="countrySelect">
-                                        <div class="selected-country-custom" onclick="toggleCountryList()">
-                                            <span class="flag" id="currentFlag">🇮🇳</span>
-                                            <span id="currentCode">+91</span>
-                                            <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem;"></i>
-                                        </div>
-                                        <ul class="country-list-custom" id="countryList">
-                                            <li class="country-option-custom" onclick="selectCountry('🇮🇳', '+91')">
-                                                <span class="flag">🇮🇳</span> India (+91)
-                                            </li>
-                                            <li class="country-option-custom" onclick="selectCountry('🇺🇸', '+1')">
-                                                <span class="flag">🇺🇸</span> USA (+1)
-                                            </li>
-                                            <li class="country-option-custom" onclick="selectCountry('🇬🇧', '+44')">
-                                                <span class="flag">🇬🇧</span> UK (+44)
-                                            </li>
-                                            <li class="country-option-custom" onclick="selectCountry('🇦🇺', '+61')">
-                                                <span class="flag">🇦🇺</span> Australia (+61)
-                                            </li>
-                                            <li class="country-option-custom" onclick="selectCountry('🇨🇦', '+1')">
-                                                <span class="flag">🇨🇦</span> Canada (+1)
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="input-wrapper-flex">
-                                        <input type="tel" class="form-input-custom input-no-left-radius" id="contactPhone" placeholder=" " required>
-                                        <label for="contactPhone" class="form-label-custom label-padded">Phone Number</label>
-                                    </div>
-                                </div>
+                                <input class="form-input-custom" type="tel" name="phone" placeholder=" " required />
+                                <label class="form-label-custom">Phone Number</label>
                             </div>
 
-                            <!-- Message Input -->
                             <div class="form-group-custom">
-                                <textarea class="form-input-custom" id="contactMessage" placeholder=" " required></textarea>
-                                <label for="contactMessage" class="form-label-custom">Tell us about your project...</label>
+                                <textarea class="form-input-custom" name="message" placeholder=" " required></textarea>
+                                <label class="form-label-custom">Message</label>
                             </div>
 
-                            <button type="submit" class="submit-btn-custom" id="submitBtn">
-                                <span class="btn-text">Send Message</span>
-                                <div class="spinner-custom"></div>
+                            <button class="submit-btn-custom" type="submit">
+                                <span>Send Message</span>
                             </button>
                         </form>
                     </div>
@@ -635,10 +692,13 @@
 
                     <!-- Social Icons -->
                     <div class="social-row-custom pt-4">
-                        <a href="https://www.facebook.com/KAREWAR" target="_blank" class="social-btn-custom"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/karewarinfracon/" target="_blank" class="social-btn-custom"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/KAREWAR" target="_blank" class="social-btn-custom"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/karewarinfracon/" target="_blank"
+                            class="social-btn-custom"><i class="fa-brands fa-instagram"></i></a>
                         <a href="#" target="_blank" class="social-btn-custom"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#" target="_blank" class="social-btn-custom"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank" class="social-btn-custom"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
@@ -651,7 +711,8 @@
             <div class="footer-content">
                 <div class="footer-col">
                     <h3>KAREWAR <span>INFRACON</span></h3>
-                    <p>At KAREWAR Infracon, we understand that building a home or business space is more than just bricks and wood. It's about creating a place for you to call your own for years to come.</p>
+                    <p>At KAREWAR Infracon, we understand that building a home or business space is more than just
+                        bricks and wood. It's about creating a place for you to call your own for years to come.</p>
                     <div class="cert-badges-footer">
                         <span>ISO 9001:2015 CERTIFIED</span>
                         <span>ISO 45001:2018 CERTIFIED</span>
@@ -687,7 +748,7 @@
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2025 Karewar Infracon. All Rights Reserved.</p>
-                <p>Design & Developed By Tejashree Dumasia</p>
+                <p>Design & Developed By Pinnacle Media Partner</p>
             </div>
         </div>
     </footer>
@@ -699,4 +760,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
